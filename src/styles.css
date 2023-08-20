@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search {
+  width: 50%;
+}
+
+.suggestion-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  transition: height 2s ease-in;
+  position: relative;
+}
+
+.suggestion {
+  margin: unset;
+  padding: unset;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.suggestion:hover {
+  transform: scale(1.1);
+}
